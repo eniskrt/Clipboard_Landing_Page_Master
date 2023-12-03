@@ -104,7 +104,7 @@ h2{
 
 
 header img{
-    margin:6rem 0 4rem 0 ;
+    margin:4rem 0 4rem 0 ;
 }
 h1{
     margin-bottom: 1rem;
@@ -117,15 +117,19 @@ h6{
 
 /* FULL */
 .full{
-    margin-top: 5rem;
-    padding-right: 12rem;
+    margin-top: 8rem;
+    padding-right: 5rem;
 }
 .full .row .col:last-child{
-    padding-left: 3rem;
+    padding-left: 3rem!important;
+}
+.full-left{
+    padding-left: 7rem;
 }
 img.computer{
     left: -4%;
     transform: translateX(-4%);
+    transform: scale(1.2);
 }
 .full h4{
     margin-top: 4rem;
@@ -140,6 +144,9 @@ img.computer{
     }
     .full img{
         transform: translate(0);
+    }
+    .full-left{
+        padding: 1rem;
     }
 }
 
